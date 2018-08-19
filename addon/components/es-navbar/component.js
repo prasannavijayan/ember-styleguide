@@ -4,5 +4,6 @@ import layout from './template';
 export default Component.extend({
   layout,
   tagName: 'nav',
+  classNames: ['es-navbar'],
   ariaLabel: 'Ember',
 });
